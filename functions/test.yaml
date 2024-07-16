@@ -3,7 +3,7 @@ description: Returns pong to a ping over http
 tags: []
 source: .
 trigger:
-    type: https
+    type: http
     method: GET
     paths:
         - /ping
