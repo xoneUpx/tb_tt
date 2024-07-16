@@ -11,5 +11,5 @@ domains:
     - GeneratedDomain
 execution:
     timeout: 5s
-    memory: 50MB
+    memory: 10MB
     call: ping
