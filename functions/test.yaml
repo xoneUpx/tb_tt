@@ -1,15 +1,15 @@
-id: QmRV73R4ZyBXjnanoWrCJH5D57pGtQMeLuNoHmUiZ3Toxy
+id: QmNzXo46Ch2rvSomYYqtRGvyT7UjNDVfegA2QDKYLEsUg5
 description: Returns pong to a ping over http
 tags: []
 source: .
 trigger:
-    type: http
+    type: https
     method: GET
     paths:
         - /ping
 domains:
     - GeneratedDomain
 execution:
-    timeout: 5s
+    timeout: 10s
     memory: 10MB
     call: ping
